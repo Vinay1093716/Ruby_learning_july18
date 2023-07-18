@@ -9,9 +9,8 @@ c = gets.to_i
 
 if a > b && a > c
   puts "a is greater than b and c"
-
 elsif b > a && b > c         
-  puts "b is greater than c and a"
-    
-else 
+  puts "b is greater than c and a"   
+else
   puts "c is greater than b and a"
+end

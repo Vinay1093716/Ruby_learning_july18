@@ -18,6 +18,3 @@ x, y = y, x
   
 #Display output
 puts "Swapped values without using 3rd variable are: #{x},#{y}"
-
-#d = (b > a ? b : a)
-#d > c ? d : c

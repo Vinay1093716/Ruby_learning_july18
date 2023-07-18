@@ -14,7 +14,7 @@ class Parent
   #Getter method
   def get_b 
     @b       
-  end 
+  end
 end 
 
 #Object creation

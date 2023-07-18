@@ -13,7 +13,7 @@ class Vinay
             puts "This is innermost method"
           end
       end 
-  end 
+  end
 end 
   
 #Object creation
@@ -27,4 +27,5 @@ obj.mymethod2
   
 #Method call using object
 obj.mymethod3
+
   

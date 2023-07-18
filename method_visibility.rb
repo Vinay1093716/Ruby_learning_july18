@@ -17,7 +17,7 @@ class Parent
   public 
   def method3 
     puts "This is public method"
-  end 
+  end
 end 
 
 #Derived class
@@ -29,7 +29,7 @@ class Child < Parent
     method1
     #calling protected method
     method2 
-  end 
+  end
 end 
 
 #Object creation for child

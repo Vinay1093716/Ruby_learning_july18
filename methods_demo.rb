@@ -7,7 +7,7 @@ end
 def rectangle
   length = 20 
   breadth = 30 
-  length * breadth 
+  length * breadth
 end 
 
 #method with default arguments
@@ -23,3 +23,4 @@ puts "The no arguments method whose area of the rectangle is: #{rectangle}"
 
 #default arguments method call
 puts "The default arguments method whose area of the rectangle is: #{rectangle1}"
+

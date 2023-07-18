@@ -11,4 +11,4 @@ end
 a = gets.to_i 
 
 #method call
-puts("The factorial of number #{a} is: #{recursion_factorial(a)}")
+puts "The factorial of number #{a} is: #{recursion_factorial(a)}"
