@@ -1,24 +1,24 @@
 class Parent 
     
-    #Intialize method(constructor)
-    def initialize(x,y)
-        @a=x 
-        @b=y 
-    end  
+  #Intialize method(constructor)
+  def initialize(x, y)
+    @a = x 
+    @b = y 
+  end  
     
-    #Getter method
-    def get_a 
-        @a          
-    end 
+  #Getter method
+  def get_a 
+    @a          
+  end 
 
-    #Getter method
-    def get_b 
-        @b       
-    end 
+  #Getter method
+  def get_b 
+    @b       
+  end 
 end 
 
 #Object creation
-obj=Parent.new(5,10)
+obj = Parent.new(5, 10)
 
 #method call using object
 puts "The value of a is: #{obj.get_a}" 

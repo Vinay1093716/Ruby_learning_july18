@@ -23,17 +23,17 @@ end
 #Derived class
 class Child < Parent    
   
-   #by default method(method4) is public in ruby
-   def method4 
-     #calling private method
-     method1
-     #calling protected method
-     method2 
-   end 
+  #by default method(method4) is public in ruby
+  def method4 
+    #calling private method
+    method1
+    #calling protected method
+    method2 
+  end 
 end 
 
 #Object creation for child
-obj=Child.new 
+obj = Child.new 
 
 #method call
 obj.method4 

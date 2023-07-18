@@ -7,12 +7,12 @@ def fibonacci_recursion(n)
     elsif n == 2 
       return n-1       
     else 
-      return fibonacci_recursion(n-1)+fibonacci_recursion(n-2)
+      return fibonacci_recursion(n - 1) + fibonacci_recursion(n - 2)
     end 
 end 
 
 #User input
-a=gets.to_i
+a = gets.to_i
 
 #method call
 puts "The Nth fibonacci number is: #{fibonacci_recursion(a)}"
